@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Desenvolvedor 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <p class="title">
+            Formulário para compra de código
+        </p>
+        <p class="subtitle">
+            Quais Linguagens você deseja:
+        </p>
+        <div class="input-box-wrapper">
+            <div class="box">
+                <input type="checkbox" value="javaScript" class="checkbox" id="javaScript">
+                <label for="javaScript">javaScript</label>
+            </div>
+            <div class="box">
+                <input type="checkbox" value="Phyton" class="checkbox" id="Phyton">
+                <label for="javaScript">Phyton</label>
+            </div>
+            <div class="box">
+                <input type="checkbox" value="C#" class="checkbox" id="C#">
+                <label for="javaScript">C#</label>
+            </div>
+            <div class="box">
+                <input type="checkbox" value="Java" class="checkbox" id="Java">
+                <label for="javaScript">Java</label>
+            </div>
+        </div>
+        <div class="print-values">
+            <p id="valueList"></p>
+        </div>
+        <div class="fieldset">
+            <div class="label">Quantos Códigos de cada?</div>
+            <div class="counterinfo">
+                <button class="qtmenos">-</button>
+                <div class="qt">1</div>
+                <button class="qtmais">+</button>
+            </div>
+            <br>
+            <div class="fieldset">
+                <div class="label">Observações:</div>
+                <br>
+                <textarea class="textarea" name="descricao" placeholder="Alguma dúvida? Recomendação?"></textarea>
+            </div>
+            <div class="footer">
+                <input type="submit" value="Enviar" class="send" id="send">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
